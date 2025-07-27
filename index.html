@@ -68,14 +68,14 @@
                     bridge.game.on('visibility_state_changed', state => sendMessageToUnity('OnVisibilityStateChanged', state))
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/71a5293e27c9a422a67560d86e40a4d0.loader.js'
+                    unityLoader.src = 'Build/1c7b020bc54643475d2f0608ab5ffdab.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/aa97f8103d3c10e6939b8969cf7e43af.data.unityweb',
+                                dataUrl: 'Build/addbd2fa5d53c955260627c06428fa7b.data.unityweb',
                                 frameworkUrl: 'Build/f7dcd138eea1e3b701190b289180f57b.framework.js.unityweb',
-                                codeUrl: 'Build/da1828528f4f6af0bb83f9260acbc5d4.wasm.unityweb',
+                                codeUrl: 'Build/350a16a81b87fc4aecc0d6fbb996b387.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'Raspberry Games',
                                 productName: 'TicTacToe Super',
